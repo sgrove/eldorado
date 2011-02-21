@@ -1,0 +1,43 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    actionmailer (2.3.9)
+      actionpack (= 2.3.9)
+    actionpack (2.3.9)
+      activesupport (= 2.3.9)
+      rack (~> 1.1.0)
+    activerecord (2.3.9)
+      activesupport (= 2.3.9)
+    activeresource (2.3.9)
+      activesupport (= 2.3.9)
+    activesupport (2.3.9)
+    hoptoad_notifier (2.2.2)
+      activesupport
+    paperclip (2.3.0)
+    rack (1.1.0)
+    rails (2.3.9)
+      actionmailer (= 2.3.9)
+      actionpack (= 2.3.9)
+      activerecord (= 2.3.9)
+      activeresource (= 2.3.9)
+      activesupport (= 2.3.9)
+      rake (>= 0.8.3)
+    rake (0.8.7)
+    right_aws (1.9.0)
+      right_http_connection (>= 1.2.1)
+    right_http_connection (1.2.4)
+    searchlogic (2.3.9)
+      activerecord (>= 2.0.0)
+    will_paginate (2.3.15)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hoptoad_notifier (= 2.2.2)
+  paperclip (= 2.3.0)
+  rails (= 2.3.9)
+  right_aws (= 1.9.0)
+  right_http_connection (= 1.2.4)
+  searchlogic (= 2.3.9)
+  will_paginate (= 2.3.15)
